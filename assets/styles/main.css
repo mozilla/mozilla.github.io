@@ -1,22 +1,22 @@
 body {
-	font-family: 'Fira Mono';
-	background: white;
+    font-family: 'Fira Mono';
+    background: white;
 }
 
 img {
-	background: white;
+    background: white;
 } 
 
 h1 {
-	font-size: 32px;
-	text-align: center;
-	font-weight: bold;
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
 }
 
 h2 {
-	font-size: 16px;
-	text-align: center;
-	font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
 }
 
 .glyph {
@@ -25,32 +25,32 @@ h2 {
 }
 
 .members {
-	display: table;
-	width: 800px;
-	margin: 0 auto;
-	margin-bottom: 3em;
+    display: table;
+    width: 800px;
+    margin: 0 auto;
+    margin-bottom: 3em;
 }
 
 .members a, .members img {
-	display: inline-block;
-	float: left;
-	height: 60px;
-	width: 60px;
-	background: white;
+    display: inline-block;
+    float: left;
+    height: 60px;
+    width: 60px;
+    background: white;
 }
 
 .projects {
-	width: 800px;
-	margin: 0 auto;
-	margin-bottom: 3em;
+    width: 800px;
+    margin: 0 auto;
+    margin-bottom: 3em;
 }
 
 .projects a {
-	display: block;
-	font-size: 20px;
-	color: #333;
+    display: block;
+    font-size: 20px;
+    color: #333;
 }
 
 .projects span {
-	float: right;
+    float: right;
 }
