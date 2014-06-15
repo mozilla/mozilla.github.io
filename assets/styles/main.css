@@ -1,6 +1,7 @@
 body {
     font-family: 'Fira Mono';
     background: white;
+    margin: 0px;
 }
 
 img {
@@ -19,8 +20,31 @@ h2 {
     font-weight: bold;
 }
 
+header {
+    border-top: 3px solid #727272;
+}
+
+.mozilla {
+    position: absolute;
+    float: left;
+    display: block;
+    height: 49px;
+    width: 118px;
+    background: url('../images/mozilla.png') 100% 0 no-repeat;
+    text-indent: -200px;
+    overflow: hidden;
+    margin-left: 20px;
+}
+
+.github {
+    display: block;
+    background: url('../images/github.png') 100% 0 no-repeat;
+    background-position: center;
+    height: 64px;
+}
+
 .glyph {
-    margin: 3em;
+    padding: 3em;
     text-align: center;
 }
 

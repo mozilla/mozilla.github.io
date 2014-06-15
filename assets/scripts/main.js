@@ -18,7 +18,7 @@ $( document ).ready(function() {
                     $('.members').append(html);
                 };
 
-                $("img").lazyload({effect: "fadeIn", effectTime: 2000});
+                $("img").lazyload();
             }
         });
 
