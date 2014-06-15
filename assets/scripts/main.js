@@ -14,7 +14,7 @@ $( document ).ready(function() {
                 if( data.length == 0 ){ stop = true; }
 
                 for (var j = 0, html = ''; j < data.length; j++) {
-                    html = '<a href="' + data[j].html_url + '" target="_blank"><img data-original="' + data[j].avatar_url + '" alt="' + data[j].login + '" /></a>'
+                    html = '<a href="' + data[j].html_url + '" target="_blank"><img data-original="' + data[j].avatar_url + 's=60" alt="' + data[j].login + '" /></a>'
                     $('.members').append(html);
                 };
 
