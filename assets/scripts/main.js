@@ -29,21 +29,22 @@ $(document).ready(function () {
         projects = [];
 
     // Members
-    for (var i = 1; i < 10; i++) {
+    for (var i = 1; i < 5; i++) {
         $.ajax({
             url: "https://api.github.com/orgs/mozilla/members",
             data: {
                 page: i,
                 per_page: 100
             },
+            async: false,
             success: function (data) {
                 if (data.length == 0) {
                     for (var j = 0, html = ''; j < members.length; j++) {
                         html = '<a href="' + members[j].html_url + '" target="_blank"><img data-original="' + members[j].avatar_url + 's=60" alt="' + members[j].login + '" /></a>'
                         $('.members').append(html);
-
-                        $("img").lazyload();
                     }
+
+                    $("img").lazyload();
                 } else {
                     $.merge(members, data);
                 }
@@ -52,13 +53,14 @@ $(document).ready(function () {
     }
 
     // Projects
-    for (var i = 1; i < 10; i++) {
+    for (var i = 1; i < 11; i++) {
         $.ajax({
             url: "https://api.github.com/orgs/mozilla/repos",
             data: {
                 page: i,
                 per_page: 100
             },
+            async: false,
             success: function (data) {
                 if (data.length == 0) {
                     projects.sort(function (obj1, obj2) {
