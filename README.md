@@ -1,4 +1,5 @@
-mozilla.github.io
-=================
+# Mozilla - Github
 
-The Mozilla Project uses GitHub!
+This page presents the activity of __Mozilla__ on __Github__.
+
+[mozilla.github.io](http://mozilla.github.io)

@@ -1,0 +1,109 @@
+body {
+    font-family: 'Fira Mono';
+    background: white;
+    margin: 0px;
+}
+
+img {
+    background: white;
+} 
+
+h1, h2 {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+p {
+    margin-top: 1em;
+    margin-bottom: 1em;   
+}
+
+kbd {
+    color: #777;
+}
+
+header {
+    border-top: 3px solid #727272;
+}
+
+hr {
+    border: 3px solid #000;
+    box-shadow: none;
+    outline: 0;
+}
+
+.center {
+    text-align: center;
+    font-size: 24px;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.mozilla {
+    width: 800px;
+    margin: 0 auto;
+    height: 49px;
+}
+
+.mozilla a {
+    float: right;
+    display: block;
+    height: 49px;
+    width: 118px;
+    background: url('../images/mozilla.png') 100% 0 no-repeat;
+    text-indent: -200px;
+    overflow: hidden;
+}
+
+.github {
+    display: block;
+    background: url('../images/github.png') 100% 0 no-repeat;
+    background-position: center;
+    height: 64px;
+}
+
+.glyph {
+    padding: 3em;
+    text-align: center;
+}
+
+.members {
+    display: table;
+    width: 800px;
+    margin: 0 auto;
+    margin-bottom: 3em;
+}
+
+.members a, .members img {
+    display: inline-block;
+    float: left;
+    height: 60px;
+    width: 60px;
+    background: white;
+}
+
+.projects {
+    width: 800px;
+    margin: 0 auto;
+    margin-bottom: 3em;
+}
+
+.projects a {
+    display: block;
+    font-size: 20px;
+    color: #333;
+}
+
+.projects span {
+    float: right;
+}
