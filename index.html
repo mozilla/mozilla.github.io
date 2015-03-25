@@ -26,6 +26,8 @@
         -webkit-justify-content: center;
         -ms-flex-pack: center;
         justify-content: center;
+        -webkit-flex-direction: column;
+        flex-direction: column;
       }
       h1 {
         font-weight: 500;
@@ -39,6 +41,21 @@
         vertical-align: middle;
         width: 35vmin;
       }
+      h2 {
+        margin: 2vmin 0;
+      }
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+      a {
+        color: #0095DD;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
     </style>
   </head>
   <body>
@@ -47,5 +64,9 @@
       <em>on</em>
       <img src="GitHub-Mark.svg" alt="GitHub">
     </h1>
+    <h2>Project Lists</h2>
+    <ul>
+      <li><a href="https://mozilla.github.io/webdev">Web Development</a></li>
+    </ul>
   </body>
 </html>
