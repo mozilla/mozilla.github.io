@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
-    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
     <title>GitHub-Mark</title>
-    <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
         <g id="GitHub-Mark" sketch:type="MSLayerGroup" fill="#161614">
@@ -15,8 +13,5 @@
             <path d="M40.2882645,99.028 C40.305124,99.526 39.7299174,99.939 39.0178512,99.948 C38.3018182,99.964 37.7226446,99.561 37.7147107,99.071 C37.7147107,98.568 38.2770248,98.159 38.9930579,98.147 C39.705124,98.133 40.2882645,98.533 40.2882645,99.028" id="Fill-10" sketch:type="MSShapeGroup"></path>
             <path d="M44.8492562,98.245 C44.9345455,98.731 44.4396694,99.23 43.732562,99.363 C43.0373554,99.491 42.393719,99.191 42.3054545,98.709 C42.2191736,98.211 42.7229752,97.712 43.4171901,97.583 C44.1252893,97.459 44.7590083,97.751 44.8492562,98.245" id="Fill-11" sketch:type="MSShapeGroup"></path>
         </g>
-        <text id="-on-" fill="#161614" sketch:type="MSTextLayer" font-family="Fira Sans" font-size="27" font-style="italic" font-weight="526" sketch:alignment="middle">
-            <tspan x="-60.69" y="69" fill="#FFFFFF">-on-</tspan>
-        </text>
     </g>
 </svg>
